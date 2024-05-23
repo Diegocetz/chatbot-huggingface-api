@@ -10,7 +10,7 @@ import os
 load_dotenv()
 
 # Configurar el token de API de Hugging Face Hub
-huggingfacehub_api_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+huggingfacehub_api_token = os.getenv("huggingfacehub_api_token")
 
 # Verificar si el token de API está configurado
 
